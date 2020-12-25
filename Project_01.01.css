@@ -1,8 +1,7 @@
 body
 {
-  background-color : rgb(128, 133, 153);
   background-image: url(project_01.01.jpg);
-  background-size : auto;
+  background-size : cover;
   background-repeat: no-repeat;
   background-position-x : 200%;
   background-attachment: fixed;
@@ -11,54 +10,46 @@ body
 
 div.opt
 {
-  background-color : rgb(4, 242, 250);
-  border-left :darkslateblue solid;
-  border-left-width: 25px;
-  border-bottom-right-radius :10px; 
-
-  margin : 1px;
-  height: 30px;
-  width : 12%;
-
-  text-align : left;
-  font-size: 20px;
+  background-color : rgb(145, 217, 219);
+  height : 50px;
+  width : 100%;
   font-family: serif;
+  padding-top: 10px;
 }
 
-div.opt:hover
+div.opt a
 {
-  background-color : cadetblue;
-  border-left :darkslateblue solid;
-  border-left-width: 35px;
-  border-bottom-right-radius :10px; 
+  text-decoration: none;
+  font-size: 28px;
+  text-align: center;
+  float: right;
+  color: black;
+}
 
-  margin : 1px;
-  width : 15%;
-  height: 40px;
-
-  text-align : left;
-  font-size: 26px;
-  font-family: serif;
-  cursor: pointer;
+div.opt a:hover
+{
+  text-decoration: none;
+  font-size: 28px;
+  text-align: center;
+  float: right;
   color: white;
 }
-
-div.bb
+div.opt h1
 {
-  position :absolute;
   font-family : sans-serif;
-  font-size: 50px;
-  left: 20%;
-  top : 40%;
+  font-size: 40px;
+  position :absolute;
+  top: -12px;
+  left: 30px;
   color: white;
 }
 
 div.fromDiv
 {
-  width : 280px;
+  width : 300px;
   position: absolute; 
   top: 25%;
-  left: 55%;
+  left: 30%;
   color :white;
 }
 
@@ -66,19 +57,19 @@ div.fromDiv h1
 {
   font-size: 40px;
   float: left;
-  border-bottom: 3px solid rgb(4, 242, 250);
+  border-bottom: 3px solid rgb(133, 16, 16);
   margin-bottom: 10px;
   padding: 10px 0;
 }
 
 div.inputBox
 {
-  width : 280px;
+  width : 300px;
   overflow : hidden;
   font-size: 10px;
   padding: 10px 0;
   margin-bottom: 10px 0;
-  border-bottom: 1px solid rgb(4, 242, 250);
+  border-bottom: 1px solid rgb(133, 16, 16);
   float: left;
 }
 
@@ -89,32 +80,82 @@ div.inputBox input
   background : none;
   color: white;
   font-size: 18px;
-  width: 280px;
+  width: 300px;
   float: left;
   margin-bottom : 10px 0;
 }
 
 div.login input
 {
-  background-color: rgb(4, 242, 250);
+  background-color: rgb(133, 16, 16);
   height: 30px;
-  width: 280px;
+  width: 300px;
   float: left;
   font-size: 18px;
   border: none;
   margin-top: 10px;
+  color: white;
 }
 
 div.login input:hover
 {
-  background-color: cadetblue;
+  background-color: rgb(241, 120, 120);
   cursor: pointer;
-  color: white;
-  border: rgb(4, 242, 250) solid;
-  border-width: 2px;
+  color: black;
+  border: rgb(133, 16, 16) solid;
+  border-width: 1px;
 }
 
 div.remember
 {
   padding-bottom: 5px;
+}
+
+div.project
+{
+  background-color: rgba(224, 197, 193, 0.7);
+  width: 24%;
+  height: 25%;
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  border-bottom: rgb(133, 16, 16) solid;
+  border-bottom-width: 5px;
+}
+
+div.project h1
+{
+  font-size: 28px;
+  padding-bottom: 20px;
+  padding-top: 45px;
+}
+
+div.project a
+{
+  text-decoration: none;
+  position: fixed;
+  top : 45%;
+  left: 47%;
+}
+
+div.c1 h1
+{
+  font-size: 28px;
+  float: right;
+  color: white;
+}
+
+div.c1-1
+{
+  background-color: rgb(168, 61, 61);
+  width: 12%;
+  height: 5%;
+  float: right;
+  color: white;
+  position: fixed;
+  top: 20%;
+  right: 7%;
+  text-align: center;
+  padding-top: 13px;
+  cursor: pointer;
 }
