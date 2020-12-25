@@ -1,0 +1,120 @@
+body
+{
+  background-color : rgb(128, 133, 153);
+  background-image: url(project_01.01.jpg);
+  background-size : auto;
+  background-repeat: no-repeat;
+  background-position-x : 200%;
+  background-attachment: fixed;
+  font-family : sans-serif;
+}
+
+div.opt
+{
+  background-color : rgb(4, 242, 250);
+  border-left :darkslateblue solid;
+  border-left-width: 25px;
+  border-bottom-right-radius :10px; 
+
+  margin : 1px;
+  height: 30px;
+  width : 12%;
+
+  text-align : left;
+  font-size: 20px;
+  font-family: serif;
+}
+
+div.opt:hover
+{
+  background-color : cadetblue;
+  border-left :darkslateblue solid;
+  border-left-width: 35px;
+  border-bottom-right-radius :10px; 
+
+  margin : 1px;
+  width : 15%;
+  height: 40px;
+
+  text-align : left;
+  font-size: 26px;
+  font-family: serif;
+  cursor: pointer;
+  color: white;
+}
+
+div.bb
+{
+  position :absolute;
+  font-family : sans-serif;
+  font-size: 50px;
+  left: 20%;
+  top : 40%;
+  color: white;
+}
+
+div.fromDiv
+{
+  width : 280px;
+  position: absolute; 
+  top: 25%;
+  left: 55%;
+  color :white;
+}
+
+div.fromDiv h1
+{
+  font-size: 40px;
+  float: left;
+  border-bottom: 3px solid rgb(4, 242, 250);
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+div.inputBox
+{
+  width : 280px;
+  overflow : hidden;
+  font-size: 10px;
+  padding: 10px 0;
+  margin-bottom: 10px 0;
+  border-bottom: 1px solid rgb(4, 242, 250);
+  float: left;
+}
+
+div.inputBox input
+{
+  border: none;
+  outline: none;
+  background : none;
+  color: white;
+  font-size: 18px;
+  width: 280px;
+  float: left;
+  margin-bottom : 10px 0;
+}
+
+div.login input
+{
+  background-color: rgb(4, 242, 250);
+  height: 30px;
+  width: 280px;
+  float: left;
+  font-size: 18px;
+  border: none;
+  margin-top: 10px;
+}
+
+div.login input:hover
+{
+  background-color: cadetblue;
+  cursor: pointer;
+  color: white;
+  border: rgb(4, 242, 250) solid;
+  border-width: 2px;
+}
+
+div.remember
+{
+  padding-bottom: 5px;
+}
