@@ -8,6 +8,26 @@ body
   font-family : sans-serif;
 }
 
+div.member
+{
+  color: white;
+}
+
+div.member h1
+{
+  color: white;
+  background-color:rgb(133, 16, 16);
+  font-family: sans-serif;
+  text-align: left;
+  text-indent: 30px;
+}
+
+div.member p
+{
+  font-size: 20px;
+  text-indent: 60px;
+}
+
 div.opt
 {
   background-color : rgb(145, 217, 219);
@@ -40,7 +60,7 @@ div.opt h1
   font-size: 40px;
   position :absolute;
   top: -12px;
-  left: 30px;
+  left: 60px;
   color: white;
 }
 
@@ -127,15 +147,23 @@ div.project h1
 {
   font-size: 28px;
   padding-bottom: 20px;
-  padding-top: 45px;
+  padding-top: 70px;
 }
 
 div.project a
 {
   text-decoration: none;
   position: fixed;
-  top : 45%;
+  top : 50%;
   left: 47%;
+}
+
+div.project i
+{
+  position: absolute;
+  top : 10%;
+  left : 35%;
+  color: rgb(133, 16, 16);
 }
 
 div.c1 h1
